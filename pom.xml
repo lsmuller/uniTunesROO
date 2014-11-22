@@ -7,7 +7,7 @@
     <version>0.1.0.BUILD-SNAPSHOT</version>
     <name>unitunes</name>
     <properties>
-        <aspectj.version>1.7.4</aspectj.version>
+        <aspectj.version>1.8.0</aspectj.version>
         <java.version>1.6</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <roo.version>1.2.5.RELEASE</roo.version>
@@ -322,13 +322,13 @@
                     </dependency>
                 </dependencies>
                 <executions>
-                   <!--  <execution>
+                    <execution>
                         <phase>process-sources</phase>
                         <goals>
                             <goal>compile</goal>
                             <goal>test-compile</goal>
                         </goals>
-                    </execution> -->
+                    </execution>
                 </executions>
                 <configuration>
                     <outxml>true</outxml>
