@@ -3,3 +3,27 @@ hint
 project --topLevelPackage com.unisinos.uniTunes
 hint
 jpa setup --provider HIBERNATE --database MYSQL 
+entity jpa --class ~.domain.Academic
+field string --fieldName email --unique --notNull 
+field string --fieldName firstName 
+field string --fieldName lastName
+field string --fieldName password
+field number --fieldName balance --type java.lang.Double
+field boolean --fieldName admin --notNull 
+field boolean --fieldName excluded
+// [failed] field boolean --fieldName excluded
+entity jpa --class ~.domain.Midia
+field string --fieldName name
+field string --fieldName description
+field number --fieldName price --type java.lang.Double
+field reference --fieldName author --type ~.domain.Academic
+field number --fieldName category --type java.lang.Integer
+field number --fieldName duration --type java.lang.Integer
+field number --fieldName pages --type java.lang.Integer
+field date --fieldName creation --type java.util.Date
+field boolean --fieldName excluded
+entity jpa --class Purchase
+field reference --fieldName academic --type ~.domain.Academic
+field reference --fieldName midia --type ~.domain.Midia
+// [failed] field date --fieldName date --type java.util.Date
+field date --fieldName purchaseDate --type java.util.Date
