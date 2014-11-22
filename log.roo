@@ -27,3 +27,4 @@ field reference --fieldName academic --type ~.domain.Academic
 field reference --fieldName midia --type ~.domain.Midia
 // [failed] field date --fieldName date --type java.util.Date
 field date --fieldName purchaseDate --type java.util.Date
+hint
