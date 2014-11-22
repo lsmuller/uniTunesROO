@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_unisinos_unitunes_domain_Midia" items="${midias}" z="xHVn6qwZCgTx2aEDfum8lMGV4Ag=">
+        <table:table data="${midias}" id="l_com_unisinos_unitunes_domain_Midia" path="/midias" z="2CNIfE84Jpg7uOOPaonCGjRLYLw=">
+            <table:column id="c_com_unisinos_unitunes_domain_Midia_name" property="name" z="hZWaGC3qOH6cPdiSQMrJRSzZ5IQ="/>
+            <table:column id="c_com_unisinos_unitunes_domain_Midia_description" property="description" z="sZQZiiQF2GhTPvcO1W56YNukcIo="/>
+            <table:column id="c_com_unisinos_unitunes_domain_Midia_price" property="price" z="21it7Vz65vwJDD7z1NAjg5FlMqc="/>
+            <table:column id="c_com_unisinos_unitunes_domain_Midia_author" property="author" z="C+P8YkbPuV93AdDdJVlQE/duaGc="/>
+            <table:column id="c_com_unisinos_unitunes_domain_Midia_category" property="category" z="Gjehni9SrAoJ/KMRZGQ14cROeIs="/>
+            <table:column id="c_com_unisinos_unitunes_domain_Midia_duration" property="duration" z="3E4s4+K62rglj6okGjAE57d+5Uw="/>
+        </table:table>
+    </page:list>
+</div>

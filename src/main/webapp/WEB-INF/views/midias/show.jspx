@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_unisinos_unitunes_domain_Midia" object="${midia}" path="/midias" z="wgVB/tUh18xw3MbLBjaYm1+LwPs=">
+        <field:display field="name" id="s_com_unisinos_unitunes_domain_Midia_name" object="${midia}" z="w9Kq6cpuZnT7Vzd48CS1SXQCx7s="/>
+        <field:display field="description" id="s_com_unisinos_unitunes_domain_Midia_description" object="${midia}" z="BFMd44/34ymC44Ax5xcc5D97dOM="/>
+        <field:display field="price" id="s_com_unisinos_unitunes_domain_Midia_price" object="${midia}" z="a4jDvXiybjQMI6vjmBsOiYLa+xc="/>
+        <field:display field="author" id="s_com_unisinos_unitunes_domain_Midia_author" object="${midia}" z="4hu0WHBrKP5NcCiSXha0s4nto/M="/>
+        <field:display field="category" id="s_com_unisinos_unitunes_domain_Midia_category" object="${midia}" z="DwNVretg8rBrYKmOarscvzBTLpk="/>
+        <field:display field="duration" id="s_com_unisinos_unitunes_domain_Midia_duration" object="${midia}" z="w2mcl3uu/QQdWchlu7tc81OfoUE="/>
+        <field:display field="pages" id="s_com_unisinos_unitunes_domain_Midia_pages" object="${midia}" z="7gtWvVLqZ6xZgLgwk5b9kztkMi8="/>
+        <field:display date="true" dateTimePattern="${midia_creation_date_format}" field="creation" id="s_com_unisinos_unitunes_domain_Midia_creation" object="${midia}" z="3Pgi+l9TwttIDrCd8BP61ReAH8c="/>
+        <field:display field="excluded" id="s_com_unisinos_unitunes_domain_Midia_excluded" object="${midia}" z="g1OPjWErgq6CX0lgKAHdxr++0NI="/>
+    </page:show>
+</div>

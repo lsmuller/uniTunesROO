@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_unisinos_unitunes_domain_Academic" object="${academic}" path="/academics" z="Ba7LPx09gSVicShtoME4JCyMBD4=">
+        <field:display field="email" id="s_com_unisinos_unitunes_domain_Academic_email" object="${academic}" z="aqWLpASlsVac1giMt9ESPtz3CYc="/>
+        <field:display field="firstName" id="s_com_unisinos_unitunes_domain_Academic_firstName" object="${academic}" z="y7ZjknFHIjCqAgq0iaz9QIWbCtM="/>
+        <field:display field="lastName" id="s_com_unisinos_unitunes_domain_Academic_lastName" object="${academic}" z="Q8Swb6U8KwrOfzU/xcy1Pc9oIHY="/>
+        <field:display field="password" id="s_com_unisinos_unitunes_domain_Academic_password" object="${academic}" z="JhTtLKKjqoPCFS/2JdXjiZs+7nQ="/>
+        <field:display field="balance" id="s_com_unisinos_unitunes_domain_Academic_balance" object="${academic}" z="b0ED5JPIIiG5rc+vWBztPXLnlJE="/>
+        <field:display field="admin" id="s_com_unisinos_unitunes_domain_Academic_admin" object="${academic}" z="KssRP7G+w9Y41vYlxQkS1qrgu8w="/>
+        <field:display field="excluded" id="s_com_unisinos_unitunes_domain_Academic_excluded" object="${academic}" z="ngrZJLQHpsVZbydpkO4Jd+n6k2c="/>
+    </page:show>
+</div>

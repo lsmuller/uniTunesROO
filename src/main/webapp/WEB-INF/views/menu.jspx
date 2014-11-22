@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:menu="urn:jsptagdir:/WEB-INF/tags/menu" id="menu" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <menu:menu id="_menu" z="nZaf43BjUg1iM0v70HJVEsXDopc=">
+        <menu:category id="c_midia" z="Pdp9UQ7Udq8E7ps4orA0zHLXpXo=">
+            <menu:item id="i_midia_new" messageCode="global_menu_new" url="/midias?form" z="wDfMUmpThfeMrWLwcrc7Olw5etY="/>
+            <menu:item id="i_midia_list" messageCode="global_menu_list" url="/midias?page=1&amp;size=${empty param.size ? 10 : param.size}" z="0Fl1oVVQHXuhlrapGhldj+qJbp4="/>
+        </menu:category>
+        <menu:category id="c_academic" z="qeU30Z9LAVcKvxW7X9lY2DuT1yk=">
+            <menu:item id="i_academic_new" messageCode="global_menu_new" url="/academics?form" z="vZKHm5cWh7YsNUt3m0/GvqPoePc="/>
+            <menu:item id="i_academic_list" messageCode="global_menu_list" url="/academics?page=1&amp;size=${empty param.size ? 10 : param.size}" z="3IfHhAtFtvDLGNFFUUt8si8Wyr8="/>
+        </menu:category>
+        <menu:category id="c_purchase" z="8QaH8alfnegW/kwSmJSHxiiAWeQ=">
+            <menu:item id="i_purchase_new" messageCode="global_menu_new" url="/purchases?form" z="tAAEDpKozpL1K6LGvAXtZ7/0lJs="/>
+            <menu:item id="i_purchase_list" messageCode="global_menu_list" url="/purchases?page=1&amp;size=${empty param.size ? 10 : param.size}" z="sYsFABPfyHD3DoZPPXTvfWETUKI="/>
+        </menu:category>
+    </menu:menu>
+</div>

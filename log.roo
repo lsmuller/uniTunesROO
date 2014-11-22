@@ -28,3 +28,5 @@ field reference --fieldName midia --type ~.domain.Midia
 // [failed] field date --fieldName date --type java.util.Date
 field date --fieldName purchaseDate --type java.util.Date
 hint
+web mvc setup
+web mvc all --package ~.web

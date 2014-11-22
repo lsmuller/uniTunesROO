@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_unisinos_unitunes_domain_Academic" modelAttribute="academic" path="/academics" versionField="Version" z="wY4Cx65xhHaaKYEg+6TmD4/lplA=">
+        <field:input field="email" id="c_com_unisinos_unitunes_domain_Academic_email" required="true" validationMessageCode="field_invalid_email" z="n9psfQB5wbMDQX7MoYrMpPUZ7DE="/>
+        <field:input field="firstName" id="c_com_unisinos_unitunes_domain_Academic_firstName" z="2WzHnF+4uFRv+OZcBvoYI1ayvhI="/>
+        <field:input field="lastName" id="c_com_unisinos_unitunes_domain_Academic_lastName" z="vcMUJtQ+H745jq/kEcVx5Ov8TkI="/>
+        <field:input field="password" id="c_com_unisinos_unitunes_domain_Academic_password" z="+0iHGahAHHZjouM4RcNM3EgNgQA="/>
+        <field:input field="balance" id="c_com_unisinos_unitunes_domain_Academic_balance" validationMessageCode="field_invalid_number" z="GHDJcw56UmFZNpu9077JcdFGudg="/>
+        <field:checkbox field="admin" id="c_com_unisinos_unitunes_domain_Academic_admin" z="rNBSqHlIURFslY6WcCin3kAep4I="/>
+        <field:checkbox field="excluded" id="c_com_unisinos_unitunes_domain_Academic_excluded" z="2C9mqT9ZmaiRoI5+4CEaKYiPU3A="/>
+    </form:update>
+</div>
